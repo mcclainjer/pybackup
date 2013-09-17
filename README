@@ -1,0 +1,2 @@
+This utility creates a tar.gz for arbitrary files in a single directory, copies files to a local or remote share
+then deletes files based on the timestamp in file name

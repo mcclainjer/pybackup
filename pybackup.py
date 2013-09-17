@@ -12,9 +12,9 @@ import socket
 getHostname = socket.gethostname()
 
 #To configure, set the following variables
-pathtofiles = '/opt/splunk/etc/' #Set the path to the directory you would like to archive. Note that this utility will recurse through nested directories.
-backupLabel = 'splunk' #Optional, if set will be added to the archive filename
-pathtoserver = '/mnt/oc03/archive/' #This is the path to the fileserver, default to /mnt/oc03/archive/
+pathtofiles = '' #Set the path to the directory you would like to archive. Note that this utility will recurse through nested directories.
+backupLabel = '' #Optional, if set will be added to the archive filename
+pathtoserver = '' #This is the path to the directory to want to copy the back up to
 
 #Used to extract the hostname if set to hostname.domainname
 if re.search(r"\.", getHostname):
